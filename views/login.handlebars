@@ -1,0 +1,9 @@
+<h1>Login</h1>
+{{#if error}}
+    <p>{{error}}</p>
+{{/if}}
+<form action="/login" method="post">
+    <label>Nombre:</label>
+    <input type="text" placeholder="Ingresa nombre de usuario" name="name"/>
+    <button type="submit">Enviar</button>
+</form>
